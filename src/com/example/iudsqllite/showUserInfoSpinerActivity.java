@@ -38,7 +38,7 @@ public class showUserInfoSpinerActivity extends Activity {
 		{
 			do 
 			{          
-				//items[i] = new MyData("value", "name");
+				//items[i] = new MyData("name","value");
 				items[i] = new MyData( c.getString(1) + " " + c.getString(2), c.getString(0));
 				i++;
 			} while (c.moveToNext());
